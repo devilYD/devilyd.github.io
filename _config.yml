@@ -63,7 +63,7 @@ kramdown:
 gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 2ac88b217cf67c4d9864                      #生成的clientID
-  clientSecret: be8fef01b33f5ddb125c5dd7ab37ae6479325daa   #生成的clientSecret
+  clientSecret: f1c4fc62febc0bfa516e42d7c4c653f6ee1c5eaa   #生成的clientSecret
   repo: devilYD.github.io    #仓库名称
   owner: devilYD    #github用户名
   admin: devilYD
