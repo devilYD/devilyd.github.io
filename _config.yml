@@ -1,0 +1,108 @@
+# Site settings
+title: YD Blog
+SEOTitle: 余盾的博客 | YD Blog
+header-img: img/post-bg-desk.jpg
+email: devilyudun@gmail.com
+description: "Every failure is leading towards success."
+keyword: "YD, YD Blog, 余盾的博客, yzk, 余泽康, Devil,devil"
+url: "http://devilYD.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/devilYD/devilYD.github.io.git" # you code repository
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "Try to make yourself happy today~"
+sidebar-avatar: /img/about-YD-gentle.png     # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# SNS settings
+RSS: false
+# weibo_username:     no using
+zhihu_username:     Devil蠢
+github_username:    devilYD
+#facebook_username:  No using
+#jianshu_username:   No using
+#twitter_username:   No using
+
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# 评论系统
+# Disqus（https://disqus.com/）
+# disqus_username: devilYD
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 2ac88b217cf67c4d9864                      #生成的clientID
+  clientSecret: be8fef01b33f5ddb125c5dd7ab37ae6479325daa   #生成的clientSecret
+  repo: devilYD.github.io    #仓库名称
+  owner: devilYD    #github用户名
+  admin: devilYD
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+# 统计
+
+Analytics settings:
+#Baidu Analytics
+ba_track_id: 08ab38e6ecada3a83a56abdb2f5ae29c
+
+# Google Analytics
+ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto              # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
+
+
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "Github",
+        href: "https://github.com/devilYD"
+    },{
+        title: "QQ",
+        href: "https://user.qzone.qq.com/347231240"
+    }
+]
