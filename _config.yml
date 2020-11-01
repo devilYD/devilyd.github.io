@@ -64,7 +64,7 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 2ac88b217cf67c4d9864                      #生成的clientID
   clientSecret: f1c4fc62febc0bfa516e42d7c4c653f6ee1c5eaa   #生成的clientSecret
-  repo: devilYD.github.io    #仓库名称
+  repo: devilyd.github.io    #仓库名称
   owner: devilYD    #github用户名
   admin: devilYD
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
