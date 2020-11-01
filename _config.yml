@@ -57,11 +57,11 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: devilYD
+disqus_username: devilYD
 
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
+  enable: false    #是否开启Gitalk评论
   clientID: 2ac88b217cf67c4d9864                      #生成的clientID
   clientSecret: be8fef01b33f5ddb125c5dd7ab37ae6479325daa   #生成的clientSecret
   repo: devilYD.github.io    #仓库名称
