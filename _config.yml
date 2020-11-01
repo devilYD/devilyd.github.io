@@ -72,7 +72,7 @@ gitalk:
 
 # 统计
 
-Analytics settings:
+#Analytics settings
 #Baidu Analytics
 ba_track_id: 08ab38e6ecada3a83a56abdb2f5ae29c
 
